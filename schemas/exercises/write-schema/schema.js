@@ -1,4 +1,4 @@
-export const schema = {
+export const schema = { // DONE
   title: 'a person',
   type: 'array',
   type: 'object',
@@ -8,13 +8,13 @@ export const schema = {
       description: "The person's first name.",
     },
     age: {
-      descriotion: 'Age in years which must be equal to or greater than zero.',
+      description: 'Age in years which must be equal to or greater than zero.',
       type: 'integer',
       minimum: 0,
     },
     languages: {
       type: 'array',
-      descriotion: "All languages which person knows",
+      description: "All languages which person knows",
     },
     isProgrammer: {
       type: 'boolean',
